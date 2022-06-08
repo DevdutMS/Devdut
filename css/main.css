@@ -98,9 +98,38 @@ ul {
 }
 
 .h-header-sec {
-  background: url(../img/home-bg.jpg) no-repeat center center fixed;
+  background: url(../img/bg-header-new.png) no-repeat center center fixed;
   background-size: cover;
   height: 80%;
+}
+
+.h-header-sec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-image: url(../img/pattern.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: blink 4s linear 0.2s infinite;
+  animation: blink 4s linear 0.2s infinite;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .gradient-head {
@@ -113,8 +142,13 @@ ul {
   box-shadow: 0 25px 25px rgb(96 124 255 / 25%);
 }
 
+.side-menu {
+  display: none;
+}
+
 @media (width: 1440px) {
-  .h-header-sec {
+  .h-header-sec,
+  .h-header-sec::before {
     height: 70%;
   }
 }
@@ -126,7 +160,8 @@ ul {
 }
 
 @media (max-width: 1024px) {
-  .h-header-sec {
+  .h-header-sec,
+  .h-header-sec::before {
     height: 500px;
   }
 }
@@ -137,12 +172,16 @@ ul {
     height: auto;
   }
 
+  .h-header-sec::before {
+    display: none;
+  }
+
   .side-menu {
     display: block;
     width: 100%;
     height: 100%;
     top: -100%;
-    text-align: center;    
+    text-align: center;
     left: 0;
     position: fixed;
     background-color: #fefefefd;
@@ -152,20 +191,19 @@ ul {
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
     -webkit-transition-timing-function: ease;
-    transition-timing-function: ease;    
+    transition-timing-function: ease;
   }
   .side-menu.active {
     top: 0;
     animation: popup 1s ease;
   }
 
-  .nav-menus-wrapper-close-button{
+  .nav-menus-wrapper-close-button {
     display: none;
   }
 
-  .side-menu.active .nav-menus-wrapper-close-button{
+  .side-menu.active .nav-menus-wrapper-close-button {
     display: block;
-
   }
 
   @keyframes popup {
@@ -182,10 +220,7 @@ ul {
       visibility: visible;
     }
   }
-
 }
-
-
 
 .mega-menu {
   display: none;
@@ -197,8 +232,6 @@ ul {
   /* background: linear-gradient(0deg, white, #fffffffc,#ffffff85); */
 }
 
-
-
 /* #hoverable Class Styles */
 .hoverable {
   position: static;
@@ -207,7 +240,6 @@ ul {
 .hoverable:hover .mega-menu {
   display: block;
 }
-
 
 .d-dropdown:hover .dropdown-menu {
   display: block;

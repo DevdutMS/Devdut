@@ -13,7 +13,7 @@
 
 <body>
     <nav class="top-0 left-0 z-50 w-full bg-transparent 2md:fixed d-nav navbar-light">
-        <div class="px-4 py-3 mx-auto 2md:py-0 md:px-6 md:container 3xl:px-3">
+        <div class="px-4 py-3 mx-auto 2md:py-0 md:px-6 md:container 3xl:px-6">
             <div class="flex items-center justify-between">
                 <div class="flex items-center flex-shrink-0 nav-logo">
                     <img src="./img/logo.png" alt="logo" class="object-cover w-32 h-auto md:w-full">
@@ -244,9 +244,11 @@
             </div>
         </div>
 
+        <!------------- mobile side-menu  ---------->
+
         <div class="side-menu">
 
-            <button
+            <button aria-label="close"
                 class="fixed flex items-center justify-center text-xl font-light text-center -translate-x-1/2 bg-black rounded-full shadow-2xl cursor-pointer nav-menus-wrapper-close-button bottom-6 w-14 h-14 left-1/2">
                 <span class="text-white ">✕</span></button>
 
@@ -258,7 +260,7 @@
 
                 <li id="accordion-collapse" data-accordion="collapse">
                     <h2 id="accordion-collapse-heading-1">
-                        <button type="button"
+                        <button type="button" aria-label="loans"
                             class="flex items-center justify-between w-full h-auto p-5 text-sm font-bold text-left border-b border-gray-200 side-link decoration-0 "
                             data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
                             aria-controls="accordion-collapse-body-1">
@@ -300,12 +302,14 @@
             </ul>
         </div>
 
+        <!------------- mobile side-menu end  ---------->
+
     </nav>
 
     <section class="w-full h-header-sec">
-        <div class="h-full px-3 mx-auto 2md:container md:px-6 3xl:px-3 h-inner">
+        <div class="h-full mx-auto 2md:container 3xl:px-6 h-inner">
             <div class="content-center hidden h-full grid-cols-1 2md:grid md:grid-cols-2">
-                <div class="relative grid content-center justify-start h-full p-6 text-left">
+                <div class="relative grid content-center justify-start h-full text-left">
 
                     <div>
                         <h6
@@ -333,7 +337,7 @@
                     </button>
 
                     <div
-                        class="bottom-0 flex items-center space-x-12 lg:absolute mt-9 3xl:mt-0 2xl:bottom-12 3xl:-bottom-6 left-6">
+                        class="bottom-0 left-0 flex items-center space-x-12 lg:absolute mt-9 3xl:mt-0 2xl:bottom-12 3xl:-bottom-6">
                         <div>
                             <div class="text-xl font-black lg:text-2xl 3xl:text-3xl">1000+</div>
                             <div class="font-medium leading-tight text-xxs lg:text-xs 3xl:text-sm">Satisfied Customers
@@ -358,7 +362,7 @@
                 </div>
 
                 <div class="grid content-center justify-center h-full p-3 lg:p-10 2xl:p-28 3xl:p-16 md:flex ">
-                    <div>
+                    <div class="z-10">
                         <picture>
                             <source type="image/webp" srcset="./img/header-img.webp">
                             <img src="./img/header-img.png" class="w-full mx-auto" alt="chickly" loading=“lazy”
@@ -391,8 +395,6 @@
                 <span
                     class="absolute z-10 hidden p-2 text-xs font-medium rounded-md xs:text-sm bg-primary-light-yellow opacity-90 right-3 bottom-3 xxxs:block">Instan
                     Loan</span>
-
-
                 <div>
                     <picture>
                         <source type="image/webp" srcset="./img/chickly-head-mobile.webp">
@@ -400,15 +402,86 @@
                             class="absolute bottom-0 object-cover xxxs:block hidden w-40 xxs:w-44 xs:w-52 sm.5:w-72 h-auto -right-2 xs:-right-4"
                             alt="chickly" loading=“lazy” decoding=“async”>
                     </picture>
-                    <!-- <img src="/img/Iphone-Mockup.png" class="mx-auto" alt="Mockup" loading=“lazy” decoding=“async”> -->
+
                 </div>
-                <!-- <img src="img/chickly-head-mobile.png" alt="chickly"
-                    class="absolute bottom-0 object-cover xxxs:block hidden w-40 xxs:w-44 xs:w-52 sm.5:w-72 h-auto -right-2 xs:-right-4"> -->
+
             </div>
 
             <!----------- mobile view card end ----------->
 
         </div>
+    </section>
+
+
+
+    <section class="py-7">
+        <div class="h-full mx-auto 2md:container 3xl:px-6">
+            <h5 class="mb-3 text-2xl font-bold tracking-tighter">Products</h5>
+
+            <div class="grid grid-cols-8 gap-6">
+
+                <a href="" class="py-6 text-center shadow-4xl rounded-xl">
+                    <div>
+                        <img src="./img/personal-loan-web.svg" class="mx-auto" alt="personal-loan">
+                    </div>
+                    <h6 class="mt-4 text-base font-bold leading-none">
+                        Personal Loan
+                    </h6>
+                    <p class="text-xs font-medium opacity-80">Starting at 10.3%</p>
+
+                    <div
+                        class="flex items-center justify-center mt-3.5 text-xs font-bold text-center text-primary-blue-03">
+                        Check Eligibility
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="h-full mx-auto 2md:container 3xl:px-6">
+            <div class="flex items-center mb-3">
+                <h5 class="text-2xl font-bold tracking-tighter">Tools</h5>
+                <hr class="w-full ml-4">
+            </div>
+
+
+            <div class="grid grid-cols-5 gap-7">
+                <a href="" class="flex items-center px-6 py-5 space-x-3 shadow-5xl rounded-xl">
+                    <div>
+                        <img src="./img/EMICalculator.svg" alt="EMICalculator">
+                    </div>
+
+                    <div>
+                        <h6 class="text-lg font-bold">EMI Calculator</h6>
+                        <div class="flex items-center justify-start text-xs font-bold text-center text-primary-blue-03">
+                            Calculate Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+
     </section>
 
 
