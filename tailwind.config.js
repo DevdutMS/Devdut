@@ -15,7 +15,8 @@ module.exports = {
         "primary-blue-01" : "#7089FF",
         "primary-blue-02" : "#5775FF",
         "primary-light-blue-01" : "#EFF1F9",
-        "primary-light-yellow" : "#FFEE9B"
+        "primary-light-yellow" : "#FFEE9B",        
+        "primary-light-gray" : "#FEFEFE"
       },
       fontSize: {
         "xxs": "11.5px",
