@@ -586,6 +586,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -0.5rem;
 }
 
+.-top-1\/2 {
+  top: -50%;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.top-14 {
+  top: 3.5rem;
+}
+
+.-top-14 {
+  top: -3.5rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-8 {
+  top: -2rem;
+}
+
+.-top-6 {
+  top: -1.5rem;
+}
+
+.-top-16 {
+  top: -4rem;
+}
+
+.-top-12 {
+  top: -3rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -597,6 +633,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .ml-2 {
@@ -645,6 +696,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -705,6 +768,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-20 {
   height: 5rem;
+}
+
+.h-48 {
+  height: 12rem;
 }
 
 .w-full {
@@ -866,6 +933,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.75rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -943,6 +1014,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(242 242 255 / var(--tw-bg-opacity));
 }
 
+.bg-primary-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 42 57 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -971,6 +1047,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-8 {
@@ -1071,6 +1151,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0px;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1115,6 +1203,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-medium {
@@ -1187,6 +1280,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-90 {
   opacity: 0.9;
+}
+
+.opacity-70 {
+  opacity: 0.7;
 }
 
 .shadow-xl {
@@ -1355,6 +1452,13 @@ ul {
   opacity: 0.6;
 }
 
+.credit-score-banner{
+  background: url(../img/creditscore-banner.png) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 24px;
+}
+
 @-webkit-keyframes blink {
   0% {
     opacity: 0;
@@ -1500,6 +1604,15 @@ ul {
       visibility: visible;
     }
   }
+
+  .d-nav.scrolled {
+    background-color: #ffffff;
+    box-shadow: none;
+  }
+
+  .d-nav.scrolled .nav-logo img {
+    width: 128px;
+  }
 }
 
 .mega-menu {
@@ -1559,6 +1672,10 @@ ul {
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:h-14 {
@@ -1746,6 +1863,11 @@ ul {
     position: absolute;
   }
 
+  .lg\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
   .lg\:mt-4 {
     margin-top: 1rem;
   }
@@ -1815,6 +1937,16 @@ ul {
     padding-bottom: 1rem;
   }
 
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:px-11 {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+
   .lg\:pt-3 {
     padding-top: 0.75rem;
   }
@@ -1842,6 +1974,16 @@ ul {
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .lg\:tracking-tightest\.5 {
@@ -2026,6 +2168,10 @@ ul {
 }
 
 @media (min-width: 541px) {
+  .sm\.5\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .sm\.5\:w-72 {
     width: 18rem;
   }
@@ -2188,15 +2334,21 @@ ul {
     }
   }
 
-  .\32md\:fixed {
-    position: fixed;
-  }
-
   .\32md\:grid {
     display: grid;
   }
 
   .\32md\:hidden {
     display: none;
+  }
+
+  .\32md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .\32md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }

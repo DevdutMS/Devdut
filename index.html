@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="top-0 left-0 z-50 w-full bg-transparent 2md:fixed d-nav navbar-light">
+    <nav class="fixed top-0 left-0 z-50 w-full bg-transparent d-nav navbar-light">
         <div class="h-full px-8 mx-auto lg:px-4 xl:px-6 2xl:px-12 md:container 3xl:px-6">
             <div class="flex items-center justify-between">
                 <div class="flex items-center flex-shrink-0 nav-logo">
@@ -377,7 +377,8 @@
 
             <!----------- mobile view card ----------->
 
-            <div class="relative block p-5 sm.5:p-8 mt-2 bg-primary-light-blue-01 rounded-2xl 2md:hidden">
+            <div class="relative block p-5 sm.5:p-8  bg-primary-light-blue-01 rounded-2xl 2md:hidden mt-12 sm.5:mt-20">
+
                 <h6 class="pl-0.5 text-xs sm.5:text-base font-medium">Looking for a loan</h6>
                 <h6
                     class="text-xl xxxs:text-2xl xxs:text-3xl xs:text-4xl sm.5:text-4.5xl font-black leading-none tracking-tighter ">
@@ -413,7 +414,7 @@
     </section>
 
 
-
+    <!-- product section  -->
     <section class="py-7">
         <div class="h-full px-3 mx-auto sm:px-8 lg:px-4 xl:px-6 2xl:px-12 2md:container 3xl:px-6">
             <h5 class="mb-3 text-2xl font-bold tracking-tighter">Products</h5>
@@ -672,6 +673,8 @@
     </section>
 
 
+
+    <!-- Tools Section  -->
     <section>
         <div class="h-full px-3 mx-auto sm:px-8 lg:px-4 xl:px-6 2xl:px-12 2md:container 3xl:px-6">
             <div class="flex items-center mb-3">
@@ -775,7 +778,8 @@
                         class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
                         <picture>
                             <source srcset="./img/bankinfo-mob.svg" media="(max-width: 640px)">
-                            <img src="./img/BankInfo.svg" class="mx-auto" alt="BankInfo" loading=“lazy” decoding=“async”>
+                            <img src="./img/BankInfo.svg" class="mx-auto" alt="BankInfo" loading=“lazy”
+                                decoding=“async”>
                         </picture>
                     </div>
 
@@ -803,7 +807,8 @@
                         class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
                         <picture>
                             <source srcset="./img/loaninfo-mob.svg" media="(max-width: 640px)">
-                            <img src="./img/LoanInfo.svg" class="mx-auto" alt="BankInfo" loading=“lazy” decoding=“async”>
+                            <img src="./img/LoanInfo.svg" class="mx-auto" alt="BankInfo" loading=“lazy”
+                                decoding=“async”>
                         </picture>
                     </div>
 
@@ -974,6 +979,52 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Credit score banner desktop -->
+
+    <div class="hidden my-12 lg:my-24 sm:block">
+        <div class="relative h-full px-3 mx-auto sm:px-8 lg:px-4 xl:px-6 2xl:px-12 2md:container 3xl:px-6 ">
+            <div class="flex items-center justify-between px-8 py-8 lg:py-10 credit-score-banner lg:px-11">
+
+                <div>
+                    <h6 class="text-lg font-medium tracking-tighter 2md:text-xl lg:text-3xl">Get your latest <span
+                            class="font-bold">Credit
+                            Score</span>,<span class="font-bold">FREE</span></h6>
+                    <p class="text-xs tracking-tighter 2md:text-sm lg:text-xl">Check if you are eligible for the best
+                        rates and wide range of
+                        offers</p>
+                </div>
+
+                <button
+                    class="px-8 py-3 space-x-4 text-base font-medium text-white rounded-full lg:px-10 lg:py-4 lg:text-lg 3xl:text-xl 3xl:py-6 3xl:px-14 bg-gradient-to-r from-primary-blue-01 to-primary-blue-02 w-fit">
+                    Check Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+       <!-- Credit score banner mobile -->
+
+       <section class="block mx-3 mt-20 sm:hidden">
+           <div class="relative p-4 text-center bg-primary-black rounded-3xl ">
+
+            <img src="./img/creditscore-meter.svg" class="absolute -translate-x-1/2 left-1/2 -top-12" alt="creditscore">
+            <h6 class="pt-12 text-lg font-medium leading-none tracking-tighter text-white">Get your latest <br> <span
+                class="font-bold">Credit
+                Score</span>,<span class="font-bold">FREE</span></h6>
+                <p class="mt-2 leading-none tracking-tighter text-white text-xxs opacity-70">Check if you are eligible for the best
+                    rates and <br> wide range of
+                    offers</p>
+
+                    <button
+                    class="px-8 py-3 mt-4 space-x-4 text-xs font-medium text-white rounded-full bg-gradient-to-r from-primary-blue-01 to-primary-blue-02 w-fit">
+                    Check Now
+                </button>
+           </div>
+
+       </section>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
