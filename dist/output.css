@@ -1036,6 +1036,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.25rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1643,6 +1648,16 @@ ul {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1766,6 +1781,11 @@ ul {
 
   .\32xl\:p-28 {
     padding: 7rem;
+  }
+
+  .\32xl\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
