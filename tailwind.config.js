@@ -36,6 +36,9 @@ module.exports = {
         "4xl": "0 2px 5px  rgb(41 32 91 / 8%), 0 3px 4px  rgb(36 42 57 / 4%)",
         "5xl": "1px 5px  rgb(41 32 91 / 8%), 0 3px 4px  rgb(36 42 57 / 8%)",
       },
+      borderRadius: {
+        "4xl":"32px"
+      }
     },
   },
   plugins: [],
