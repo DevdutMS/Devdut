@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: "Satoshi";
-  src: url("../fonts/Satoshi-Black.woff2") format("woff2"),
+  src: url("../fonts/Satoshi-Bold.woff2") format("woff2"),
     url("../fonts/Satoshi-Bold.woff") format("woff"),
     url("../fonts/Satoshi-Bold.ttf") format("truetype");
   font-weight: 700;
@@ -97,6 +97,22 @@ ul {
   padding: 0px;
 }
 
+/* scrolled  */
+
+.d-nav,
+.d-nav .nav-logo img {
+  transition: 0.2s all ease;
+}
+
+.d-nav.scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 12px 12px rgba(188, 192, 209, 0.16);
+}
+
+.d-nav.scrolled .nav-logo img {
+  width: 180px;
+}
+
 .h-header-sec {
   background: url(../img/bg-header-new.png) no-repeat center center fixed;
   background-size: cover;
@@ -145,6 +161,7 @@ ul {
 .side-menu {
   display: none;
 }
+
 
 @media (width: 1440px) {
   .h-header-sec,
@@ -220,6 +237,8 @@ ul {
       visibility: visible;
     }
   }
+
+ 
 }
 
 .mega-menu {

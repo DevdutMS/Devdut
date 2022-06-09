@@ -18,6 +18,8 @@ module.exports = {
         "primary-light-yellow": "#FFEE9B",
         "primary-light-gray": "#FEFEFE",
         "primary-blue-03": "#6478D3",
+        "primary-light-gray-01" : "#F5F7FA",
+        "primary-blue-04" : "#F2F2FF"
       },
       fontSize: {
         xxs: "11.5px",

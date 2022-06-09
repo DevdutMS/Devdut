@@ -13,7 +13,7 @@
 
 <body>
     <nav class="top-0 left-0 z-50 w-full bg-transparent 2md:fixed d-nav navbar-light">
-        <div class="px-4 py-3 mx-auto 2md:py-0 md:px-12 md:container 3xl:px-6">
+        <div class="h-full px-8 mx-auto lg:px-4 xl:px-6 2xl:px-12 md:container 3xl:px-6">
             <div class="flex items-center justify-between">
                 <div class="flex items-center flex-shrink-0 nav-logo">
                     <img src="./img/logo.png" alt="logo" class="object-cover w-32 h-auto md:w-full">
@@ -307,7 +307,7 @@
     </nav>
 
     <section class="w-full h-header-sec">
-        <div class="h-full px-6 mx-auto 2xl:px-12 2md:container 3xl:px-6 h-inner">
+        <div class="h-full px-3 mx-auto sm:px-8 lg:px-4 xl:px-6 2xl:px-12 2md:container 3xl:px-6 h-inner">
             <div class="content-center hidden h-full grid-cols-1 2md:grid md:grid-cols-2">
                 <div class="relative grid content-center justify-start h-full text-left">
 
@@ -415,22 +415,30 @@
 
 
     <section class="py-7">
-        <div class="h-full px-6 mx-auto 2xl:px-12 2md:container 3xl:px-6">
+        <div class="h-full px-3 mx-auto sm:px-8 lg:px-4 xl:px-6 2xl:px-12 2md:container 3xl:px-6">
             <h5 class="mb-3 text-2xl font-bold tracking-tighter">Products</h5>
 
-            <div class="grid grid-cols-8 gap-6">
+            <div class="grid grid-cols-4 gap-y-4 gap-1.5 sm:gap-4 lg:gap-2 xl:gap-4 lg:grid-cols-8 2xl:gap-6">
 
-                <a href="" class="py-6 text-center shadow-4xl rounded-xl">
-                    <div>
-                        <img src="./img/personal-loan-web.svg" class="mx-auto" alt="personal-loan">
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/personal-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/personal-loan-web.svg" class="mx-auto" alt="personal-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
                     </div>
-                    <h6 class="mt-4 text-base font-bold leading-none">
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
                         Personal Loan
                     </h6>
-                    <p class="text-xs font-medium opacity-80">Starting at 10.3%</p>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
 
                     <div
-                        class="flex items-center justify-center mt-3.5 text-xs font-bold text-center text-primary-blue-03">
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
                         Check Eligibility
                         <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
                             viewBox="0 0 10.12 10.12">
@@ -442,6 +450,222 @@
                     </div>
                 </a>
 
+
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/business-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/business-loan-web.svg" class="mx-auto" alt="Business-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
+                    </div>
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
+                        Business Loan
+                    </h6>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
+
+                    <div
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
+                        Check Eligibility
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/car-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/car-loan-web.svg" class="mx-auto" alt="car-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
+                    </div>
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
+                        Car Loan
+                    </h6>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
+
+                    <div
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
+                        Check Eligibility
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/home-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/home-loan-web.svg" class="mx-auto" alt="home-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
+                    </div>
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
+                        Home Loan
+                    </h6>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
+
+                    <div
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
+                        Check Eligibility
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/gold-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/gold-loan-web.svg" class="mx-auto" alt="gold-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
+                    </div>
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
+                        Gold Loan
+                    </h6>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
+
+                    <div
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
+                        Apply Now
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/education-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/education-loan-web.svg" class="mx-auto" alt="education-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
+                    </div>
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
+                        Education Loan
+                    </h6>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
+
+                    <div
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
+                        Check Eligibility
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/instant-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/instant-loan-web.svg" class="mx-auto" alt="instant-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
+                    </div>
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
+                        Instant Loan
+                    </h6>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
+
+                    <div
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
+                        Check Eligibility
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="py-0 text-center sm:py-5 2xl:py-6 sm:shadow-4xl lg:shadow-none xl:shadow-4xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-16 mx-auto rounded-md sm:rounded-none sm:w-14 sm:h-14 xl:w-20 xl:h-20 bg-primary-light-gray-01 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/micro-loan-mobile.svg" media="(max-width: 640px)">
+                            <img src="/img/micro-loan-web.svg" class="mx-auto" alt="micro-loan" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+
+                    </div>
+                    <h6
+                        class="mt-2 text-xs font-bold leading-none tracking-tighter sm:mt-3 lg:mt-4 xl:text-sm 2xl:text-base sm:tracking-normal">
+                        Micro Loan
+                    </h6>
+                    <p class="hidden font-medium text-xxs xl:text-xs opacity-80 sm:block">Starting at 10.3%</p>
+
+                    <div
+                        class="sm:flex items-center justify-center mt-3 lg:mt-3.5 text-xxs xl:text-xs font-bold text-center text-primary-blue-03 hidden ">
+                        Apply Now
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                            viewBox="0 0 10.12 10.12">
+                            <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                data-name="Icon ionic-ios-arrow-dropright-circle"
+                                d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                        </svg>
+                    </div>
+                </a>
             </div>
 
         </div>
@@ -449,22 +673,30 @@
 
 
     <section>
-        <div class="h-full px-6 mx-auto 2xl:px-12 2md:container 3xl:px-6">
+        <div class="h-full px-3 mx-auto sm:px-8 lg:px-4 xl:px-6 2xl:px-12 2md:container 3xl:px-6">
             <div class="flex items-center mb-3">
                 <h5 class="text-2xl font-bold tracking-tighter">Tools</h5>
                 <hr class="w-full ml-4">
             </div>
 
+            <div class="grid grid-cols-3 gap-2 md:gap-4 lg:gap-2 lg:grid-cols-5 xl:gap-6">
 
-            <div class="grid grid-cols-5 gap-7">
-                <a href="" class="flex items-center px-6 py-5 space-x-3 shadow-5xl rounded-xl">
-                    <div>
-                        <img src="./img/EMICalculator.svg" alt="EMICalculator">
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/EMICalculator-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/EMICalculator.svg" class="mx-auto" alt="EMICalculator" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
                     </div>
 
                     <div>
-                        <h6 class="text-lg font-bold">EMI Calculator</h6>
-                        <div class="flex items-center justify-start text-xs font-bold text-center text-primary-blue-03">
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">EMI
+                            Calculator</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
                             Calculate Now
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
                                 viewBox="0 0 10.12 10.12">
@@ -477,25 +709,275 @@
                     </div>
                 </a>
 
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/creditscore-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/CreditScore.svg" class="mx-auto" alt="EMICalculator" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Credit Score</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Try Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/loanbidder-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/LoanBidder.svg" class="mx-auto" alt="LoanBidder" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Loan Bidder</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Try Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/bankinfo-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/BankInfo.svg" class="mx-auto" alt="BankInfo" loading=“lazy” decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Bank Info</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Try Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/loaninfo-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/LoanInfo.svg" class="mx-auto" alt="BankInfo" loading=“lazy” decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Loan Info</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/ifscdetails-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/IFSCDetails.svg" class="mx-auto" alt="IFSCDetails" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            IFSC Details</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/managerinfo-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/ManagerInfo.svg" class="mx-auto" alt="ManagerInfo" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Manager Info</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/evaluator-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/EvaluatorInfo.svg" class="mx-auto" alt="EvaluatorInfo" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Evaluator Info</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="flex flex-col items-center sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+                            <source srcset="/img/spendanalysis-mob.svg" media="(max-width: 640px)">
+                            <img src="/img/SpendAnalysis.svg" class="mx-auto" alt="SpendAnalysis" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Spend Analysis</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href=""
+                    class="flex-col items-center hidden lg:flex sm:flex-row sm:px-4 sm:py-5 sm:space-x-3 sm:shadow-5xl rounded-xl">
+                    <div
+                        class="flex items-center justify-center w-full h-20 xl:w-16 xl:h-16 sm:w-11 rounded-xl sm:rounded-none sm:h-11 bg-primary-blue-04 sm:bg-white">
+                        <picture>
+
+                            <img src="/img/Referafriend.svg" class="mx-auto" alt="Referafriend" loading=“lazy”
+                                decoding=“async”>
+                        </picture>
+                    </div>
+
+                    <div>
+                        <h6 class="mt-2 text-xs font-bold leading-none md:text-sm xl:text-base 2xl:text-lg sm:mt-0">
+                            Refer a friend</h6>
+                        <div
+                            class="items-center justify-start hidden text-xs font-bold text-center sm:flex text-primary-blue-03">
+                            Refer Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1" width="10.12" height="10.12"
+                                viewBox="0 0 10.12 10.12">
+                                <path id="Icon_ionic-ios-arrow-dropright-circle"
+                                    data-name="Icon ionic-ios-arrow-dropright-circle"
+                                    d="M3.375,8.435a5.06,5.06,0,1,0,5.06-5.06A5.059,5.059,0,0,0,3.375,8.435Zm5.948,0L7.33,6.462A.47.47,0,0,1,7.995,5.8l2.321,2.328a.469.469,0,0,1,.015.647L8.043,11.067a.469.469,0,1,1-.664-.662Z"
+                                    transform="translate(-3.375 -3.375)" fill="#6478d3" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+
             </div>
-
         </div>
-
-
     </section>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-
-        $(".button-dm").click(function () {
-            $(".side-menu").addClass("active");
-        });
-
-        $(".nav-menus-wrapper-close-button").click(function () {
-            $(".side-menu").removeClass("active");
-        });
-    </script>
+    <script src="js/main.js"></script>
 
 
 </body>
