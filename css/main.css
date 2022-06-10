@@ -188,6 +188,10 @@ ul {
   display: none;
 }
 
+.instant-loan-card{
+  background: linear-gradient(140deg,#9E8BFF,#5775FF);
+}
+
 
 @media (width: 1440px) {
   .h-header-sec,

@@ -59,6 +59,7 @@ module.exports = {
         "6xl": "0 20px 55px  rgb(158 139 255 / 25%)",
         "c" : "0 12px 12px rgb(134 123 167 / 18%)",
         violet: "0 4px 8px rgb(158 139 255 / 45%)",
+        "violet-card" : "0 16px 16px rgb(164 168 226 / 25%)"
       },
       borderRadius: {
         "4xl": "32px",
