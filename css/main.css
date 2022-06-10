@@ -149,6 +149,19 @@ ul {
   /* height: 635px; */
 }
 
+.bg-pattern2{
+  background: url(../img/bg-design2.jpg) no-repeat center center;
+  background-size: cover;
+  /* height: 635px; */
+}
+
+
+.bg-pattern3{
+  background: url(../img/bg-design3.jpg) no-repeat center center;
+  background-size: cover;
+  /* height: 635px; */
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
