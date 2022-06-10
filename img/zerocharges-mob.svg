@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.714" height="43.591" viewBox="0 0 36.714 43.591">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.739" y2="0.923" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8b9b"/>
+      <stop offset="1" stop-color="#f13e56"/>
+    </linearGradient>
+  </defs>
+  <g id="zerocharges-mob" transform="translate(-638.56 -3264.726)">
+    <path id="Path_2503" data-name="Path 2503" d="M3.06-42.153C3.06-29.138,9.88-20.5,21.417-20.5s18.357-8.639,18.357-21.653S32.386-64.09,21.417-64.09,3.06-55.167,3.06-42.153Zm9.093,0c0-9.321,3.41-13.867,9.264-13.867s9.264,4.547,9.264,13.867c0,9.036-3.41,13.583-9.264,13.583S12.153-33.116,12.153-42.153Z" transform="translate(635.5 3328.816)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
