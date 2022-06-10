@@ -143,6 +143,12 @@ ul {
   border-radius: 24px;
 }
 
+.bg-pattern{
+  background: url(../img/bg-design.jpg) no-repeat center center;
+  background-size: cover;
+  /* height: 635px; */
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
