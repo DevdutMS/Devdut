@@ -11,10 +11,8 @@ module.exports = {
       xxs: "360px",
       xs: "420px",
       "sm.5": "541px",
-      "2md": "769px",      
- 
+      "2md": "769px",
       ...defaultTheme.screens,
-
     },
 
     extend: {
@@ -34,6 +32,14 @@ module.exports = {
         "primary-blue-05": "#FBFBFF",
         "primary-light-gray-02": "#FEFEFF",
         "primary-violet": "#9E8BFF",
+        "primary-violet-02" : "#8654FF",
+        "primary-pink": "#FF8B9B",
+        "primary-pink-01": "#ff8b9b73",
+        "primary-green" : "#71ECC6",
+        "primary-green-01": "#71ecc673",
+        "primary-mid-blue" : "#8BAEFF",
+        "primary-mid-blue-01" : "#8baeff73",
+        "primary-light-blue-02" : "#FCFBFF"
       },
       fontSize: {
         xxs: "11.5px",
@@ -49,7 +55,9 @@ module.exports = {
       },
       boxShadow: {
         "4xl": "0 2px 5px  rgb(41 32 91 / 8%), 0 3px 4px  rgb(36 42 57 / 4%)",
-        "5xl": "1px 5px  rgb(41 32 91 / 8%), 0 3px 4px  rgb(36 42 57 / 8%)",
+        "5xl": "0 1px 5px  rgb(41 32 91 / 8%), 0 3px 4px  rgb(36 42 57 / 8%)",
+        "6xl": "0 20px 55px  rgb(158 139 255 / 25%)",
+        "c" : "0 12px 12px rgb(134 123 167 / 18%)",
         violet: "0 4px 8px rgb(158 139 255 / 45%)",
       },
       borderRadius: {

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.922" height="123.578" viewBox="0 0 100.922 123.578">
+  <defs>
+    <filter id="Path_2396" x="0" y="16.096" width="87.767" height="107.482" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#62e9bc" flood-opacity="0.49"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.338" cy="0.354" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b2ffe5"/>
+      <stop offset="1" stop-color="#62e4b8"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="1" y1="0.753" x2="-0.191" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#62e4b8"/>
+      <stop offset="1" stop-color="#62e4b8" stop-opacity="0.588"/>
+    </linearGradient>
+  </defs>
+  <g id="InstantCredit-web" transform="translate(-243.501 -3239.652)">
+    <g id="Group_3919" data-name="Group 3919" transform="translate(-71.236 839.967)">
+      <g id="Group_3912" data-name="Group 3912" transform="translate(333.248 2500.983)">
+        <path id="Path_2361" data-name="Path 2361" d="M140.584,1099.79a3.932,3.932,0,0,0,1.466.28h0a3.932,3.932,0,0,1-1.466-.28Z" transform="translate(-140.584 -1099.79)" fill="#2f8694"/>
+      </g>
+      <g id="Group_3913" data-name="Group 3913" transform="translate(346.26 2429.781)">
+        <path id="Path_2362" data-name="Path 2362" d="M224.4,817.716l-32.265.007,32.266-.007Z" transform="translate(-192.131 -817.716)" fill="#2f8694"/>
+      </g>
+      <g id="Group_3914" data-name="Group 3914" transform="translate(330.737 2429.781)">
+        <g transform="matrix(1, 0, 0, 1, -16, -30.1)" filter="url(#Path_2396)">
+          <path id="Path_2396-2" data-name="Path 2396" d="M182.39,821.68l.015,63.545a3.964,3.964,0,0,1-3.964,3.963l-43.825.01a3.961,3.961,0,0,1-3.965-3.963l-.013-63.545a3.962,3.962,0,0,1,3.962-3.965l43.826-.009a3.964,3.964,0,0,1,3.965,3.964" transform="translate(-114.64 -787.62)" fill="#62e4b8"/>
+        </g>
+      </g>
+      <g id="Group_3915" data-name="Group 3915" transform="translate(335.812 2429.788)">
+        <path id="Path_2397" data-name="Path 2397" d="M161.189,817.744h-4.563l-5.885,0,.016,71.473,10.448,0Z" transform="translate(-150.741 -817.744)" fill="#62b99c"/>
+      </g>
+      <g id="Group_3916" data-name="Group 3916" transform="translate(361.546 2444.571)">
+        <path id="Path_2398" data-name="Path 2398" d="M260.081,876.307a7.394,7.394,0,1,1-7.392,7.4,7.393,7.393,0,0,1,7.392-7.4" transform="translate(-252.689 -876.307)" fill="#26936e"/>
+      </g>
+      <g id="Group_3917" data-name="Group 3917" transform="translate(361.544 2435.945)">
+        <path id="Path_2399" data-name="Path 2399" d="M260.073,842.134a7.394,7.394,0,1,1-7.392,7.4,7.393,7.393,0,0,1,7.392-7.4" transform="translate(-252.681 -842.134)" fill="#11c286"/>
+      </g>
+      <g id="Group_3918" data-name="Group 3918" transform="translate(351.653 2478.167)">
+        <path id="Path_2400" data-name="Path 2400" d="M213.5,1009.4h8.851v16.031H213.5V1009.4" transform="translate(-213.499 -1009.4)" fill="rgba(255,243,0,1)"/>
+      </g>
+    </g>
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="3.758" cy="3.758" r="3.758" transform="translate(313.268 3253.619)" fill="url(#radial-gradient)"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="4.322" cy="4.322" r="4.322" transform="translate(322.711 3288.537) rotate(-7)" fill="url(#linear-gradient)"/>
+    <path id="Path_201" data-name="Path 201" d="M0,.032S11.428-.821,17.523,6.29" transform="translate(323.072 3272.793) rotate(-25)" fill="none" stroke="#62e4b8" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_203" data-name="Path 203" d="M0,7.671S1.308,4.8,3.749,4.429s6.131,2,9.1.766S17.766,0,17.766,0" transform="matrix(-0.326, 0.946, -0.946, -0.326, 308.402, 3244.338)" fill="none" stroke="#fef301" stroke-linecap="round" stroke-width="2.6"/>
+  </g>
+</svg>

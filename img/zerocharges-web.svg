@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.031" height="95.037" viewBox="0 0 72.031 95.037">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.739" y2="0.923" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8b9b"/>
+      <stop offset="1" stop-color="#f13e56"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.345" cy="0.273" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffa2af"/>
+      <stop offset="1" stop-color="#f75e72"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.753" x2="-0.191" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd7f90"/>
+      <stop offset="1" stop-color="#fc7d8e" stop-opacity="0.612"/>
+    </linearGradient>
+  </defs>
+  <g id="zerocharges-web" transform="translate(-638.56 -3244.184)">
+    <path id="Path_2503" data-name="Path 2503" d="M3.06-31.28c0,19.465,10.2,32.385,27.455,32.385S57.97-11.815,57.97-31.28,46.92-64.09,30.515-64.09,3.06-50.745,3.06-31.28Zm13.6,0c0-13.94,5.1-20.74,13.855-20.74S44.37-45.22,44.37-31.28c0,13.515-5.1,20.315-13.855,20.315S16.66-17.765,16.66-31.28Z" transform="translate(635.5 3338.115)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_683" data-name="Ellipse 683" cx="3.758" cy="3.758" r="3.758" transform="translate(675.391 3253.686) rotate(-17)" fill="url(#radial-gradient)"/>
+    <circle id="Ellipse_682" data-name="Ellipse 682" cx="4.322" cy="4.322" r="4.322" transform="matrix(0.914, -0.407, 0.407, 0.914, 694.629, 3284.316)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_2401" data-name="Path 2401" d="M0,.032S11.428-.821,17.523,6.29" transform="translate(690.373 3269.154) rotate(-42)" fill="none" stroke="#fe8394" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_2402" data-name="Path 2402" d="M0,7.671S1.308,4.8,3.749,4.429s6.131,2,9.1.766S17.766,0,17.766,0" transform="translate(668.025 3246.232) rotate(92)" fill="none" stroke="#fe8494" stroke-linecap="round" stroke-width="2.6"/>
+  </g>
+</svg>
