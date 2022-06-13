@@ -32,6 +32,7 @@ module.exports = {
         "primary-blue-05": "#FBFBFF",
         "primary-light-gray-02": "#FEFEFF",
         "primary-violet": "#9E8BFF",
+        "primary-light-violet": "#F9F8FF",
         "primary-violet-02" : "#8654FF",
         "primary-pink": "#FF8B9B",
         "primary-pink-01": "#ff8b9b73",
@@ -46,6 +47,7 @@ module.exports = {
         "xs.5": "13px",
         "sm.5": "15px",
         "3.5xl": "31px",
+        "3.7xl": "34px",
         "4.5xl": "42px",
         "6.5xl": "65px",
       },
@@ -59,7 +61,9 @@ module.exports = {
         "6xl": "0 20px 55px  rgb(158 139 255 / 25%)",
         "c" : "0 12px 12px rgb(134 123 167 / 18%)",
         violet: "0 4px 8px rgb(158 139 255 / 45%)",
-        "violet-card" : "0 16px 16px rgb(164 168 226 / 25%)"
+        "violet-card" : "0 16px 16px rgb(164 168 226 / 25%)",
+        "orange-card" : "0 16px 16px rgb(232 146 122 / 25%)",
+        "blue-card" : "0 16px 16px rgb(137 121 255 / 25%)"
       },
       borderRadius: {
         "4xl": "32px",

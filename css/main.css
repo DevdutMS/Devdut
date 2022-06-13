@@ -136,27 +136,26 @@ ul {
   opacity: 0.6;
 }
 
-.credit-score-banner{
+.credit-score-banner {
   background: url(../img/creditscore-banner.png) no-repeat center center;
   background-size: cover;
   height: 100%;
   border-radius: 24px;
 }
 
-.bg-pattern{
+.bg-pattern {
   background: url(../img/bg-design.jpg) no-repeat center center;
   background-size: cover;
   /* height: 635px; */
 }
 
-.bg-pattern2{
+.bg-pattern2 {
   background: url(../img/bg-design2.jpg) no-repeat center center;
   background-size: cover;
   /* height: 635px; */
 }
 
-
-.bg-pattern3{
+.bg-pattern3 {
   background: url(../img/bg-design3.jpg) no-repeat center center;
   background-size: cover;
   /* height: 635px; */
@@ -188,10 +187,22 @@ ul {
   display: none;
 }
 
-.instant-loan-card{
-  background: linear-gradient(140deg,#9E8BFF,#5775FF);
+.instant-loan-card {
+  background: linear-gradient(140deg, #9e8bff, #5775ff);
 }
 
+.bike-loan-card {
+  background: linear-gradient(140deg, #ff9d71, #ff816d);
+}
+
+.home-loan-card {
+  background: linear-gradient(140deg, #8fc7ff, #8654ff);
+}
+
+.mobile-app-section{
+  background: url(../img/mobile-app-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
 
 @media (width: 1440px) {
   .h-header-sec,
@@ -268,19 +279,14 @@ ul {
     }
   }
 
-
   .d-nav.scrolled {
     background-color: #ffffff;
     box-shadow: none;
-  
-  }
-  
-  .d-nav.scrolled .nav-logo img {
-    width: 128px;
- 
   }
 
- 
+  .d-nav.scrolled .nav-logo img {
+    width: 128px;
+  }
 }
 
 .mega-menu {
