@@ -21,6 +21,7 @@ module.exports = {
       },
       colors: {
         "primary-black": "#242A39",
+        "primary-black-02" : "#242936",
         "primary-blue-01": "#7089FF",
         "primary-blue-02": "#5775FF",
         "primary-light-blue-01": "#EFF1F9",
@@ -40,12 +41,19 @@ module.exports = {
         "primary-green-01": "#71ecc673",
         "primary-mid-blue" : "#8BAEFF",
         "primary-mid-blue-01" : "#8baeff73",
-        "primary-light-blue-02" : "#FCFBFF"
+        "primary-light-blue-02" : "#FCFBFF",
+        "primary-light-blue-03" : "#F0F3FF",
+        "primary-light-blue-04" : "#E9E5FF",
+        "primary-light-yellow-02" : "#FFF5EB",
+        "primary-yellow-01" : "#FFB971",
+        "primary-yellow-02" : "#FFB971"
+
       },
       fontSize: {
         xxs: "11.5px",
         "xs.5": "13px",
         "sm.5": "15px",
+        "2.5xl": "28px",
         "3.5xl": "31px",
         "3.7xl": "34px",
         "4.5xl": "42px",
@@ -63,7 +71,8 @@ module.exports = {
         violet: "0 4px 8px rgb(158 139 255 / 45%)",
         "violet-card" : "0 16px 16px rgb(164 168 226 / 25%)",
         "orange-card" : "0 16px 16px rgb(232 146 122 / 25%)",
-        "blue-card" : "0 16px 16px rgb(137 121 255 / 25%)"
+        "blue-card" : "0 16px 16px rgb(137 121 255 / 25%)",
+        "t-card" : "0 25px 25px  rgb(151 163 184 / 25%)"
       },
       borderRadius: {
         "4xl": "32px",

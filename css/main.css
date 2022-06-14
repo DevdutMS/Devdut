@@ -199,10 +199,37 @@ ul {
   background: linear-gradient(140deg, #8fc7ff, #8654ff);
 }
 
-.mobile-app-section{
+.mobile-app-section {
   background: url(../img/mobile-app-bg.jpg) no-repeat center center;
   background-size: cover;
 }
+
+.parnter-bank-sec {
+  background: url(../img/partnerbank-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.mobile-app-ul li::before {
+  content: url(../img/blue-blob.svg);
+  position: absolute;
+  left: -24px;
+  top: 0;
+}
+
+.reward-section {
+  background: url(../img/reward-sec.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.btn-d{
+  transition: 0.2s all ease;
+}
+
+.product-card,.tool-card{
+  transition: 0.3s ease-in-out;
+}
+
+
 
 @media (width: 1440px) {
   .h-header-sec,
@@ -222,6 +249,34 @@ ul {
   .h-header-sec::before {
     height: 500px;
   }
+}
+
+@media (min-width:769px){
+  
+.btn-d:hover{
+  transform: translateX(2px);
+  box-shadow: 0 32px 25px rgb(96 124 255 / 36%);
+}
+
+.product-card:hover,.tool-card:hover{
+  box-shadow: 0 10px 16px  rgb(41 32 91 / 10%), 0 2px 6px  rgb(36 42 57 / 4%);
+}
+}
+
+@media (max-width: 769px) {
+  .mobile-app-ul li::before {
+    display: none;
+  }
+
+  .reward-section {
+    background: transparent;
+  }
+
+  .reward-section-inner {
+    background: url(../img/reward-sec.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
